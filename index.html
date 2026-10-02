@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30주년 기념 홈 레스토랑 초대장</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Noto Serif KR', serif;
+            background-color: #f7f6f5; 
+            color: #4a4a4a;
+        }
+        .mobile-wrap {
+            max-width: 480px; 
+            margin: 0 auto; 
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05); 
+            min-height: 100vh;
+        }
+        .section { padding: 60px 20px; text-align: center; }
+        .main-cover { background-color: #fcfbf9; padding-top: 80px; padding-bottom: 60px; }
+        .title { font-size: 1.1rem; letter-spacing: 3px; margin-bottom: 25px; color: #8e7d70; font-weight: 300; }
+        .names { font-size: 2rem; font-weight: 600; margin-bottom: 35px; color: #333; }
+        .photo-placeholder {
+            width: 90%; 
+            aspect-ratio: 3/4; 
+            background-color: #eaddd7;
+            margin: 0 auto; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            color: #a3958c; 
+            border-radius: 4px; 
+            overflow: hidden;
+            position: relative;
+        }
+        .date-location { margin-top: 35px; font-size: 1.1rem; line-height: 1.8; color: #555; }
+        .divider { width: 1px; height: 40px; background-color: #d1c9c4; margin: 40px auto; }
+        .greeting-title { font-size: 1.2rem; margin-bottom: 30px; color: #8e7d70; letter-spacing: 2px; }
+        .greeting-text { font-size: 1.05rem; line-height: 2.2; word-break: keep-all; color: #444; }
+        .info-box {
+            background-color: #fcfbf9; 
+            padding: 40px 30px; 
+            border-radius: 4px;
+            margin: 20px 10px; 
+            text-align: left;
+            border: 1px solid #eee;
+        }
+        .info-row { margin-bottom: 20px; display: flex; align-items: flex-start; }
+        .info-row:last-child { margin-bottom: 0; }
+        .info-label { width: 70px; font-weight: 600; color: #8e7d70; }
+        .info-value { flex: 1; line-height: 1.6; }
+        .footer { padding: 40px 20px; text-align: center; font-size: 0.9rem; color: #aaa; background-color: #f7f6f5; }
+        
+        /* Fade-in Animation */
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile-wrap fade-in">
+        <!-- Main Cover Section -->
+        <div class="section main-cover">
+            <div class="title">30th Anniversary</div>
+            <div class="names">조영수 &amp; 남궁유진</div>
+            <div class="photo-placeholder">
+                <img src="photo.jpg" style="width:100%; height: 100%; object-fit:cover;">
+            </div>
+            <div class="date-location">
+                2026년 10월 5일 오후 6시<br>
+                건영 CastleVille
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Greeting Section -->
+        <div class="section">
+            <div class="greeting-title">INVITATION</div>
+            <div class="greeting-text">
+                서로를 향한 믿음과 사랑으로<br>
+                함께하신 지 어느덧 30년,<br>
+                두 분의 진주혼식을 진심으로 축하합니다.<br><br>
+                감사의 마음을 담아 저희 형제가<br>
+                작은 홈 레스토랑을 준비했습니다.<br><br>
+                정성껏 준비한 코스요리의<br>
+                특별한 저녁 시가에 두 분을 모십니다.
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Information Section -->
+        <div class="section" style="padding-top: 20px;">
+            <div class="greeting-title">INFORMATION</div>
+            <div class="info-box">
+                <div class="info-row">
+                    <div class="info-label">날짜</div>
+                    <div class="info-value">2026년 10월 5일 (월요일)</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">시간</div>
+                    <div class="info-value">오후 6시</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">위치</div>
+                    <div class="info-value">건영 CastleVille<br>103동 1102호</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            Designed with love by your sons
+        </div>
+    </div>
+</body>
+</html>
