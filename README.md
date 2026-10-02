@@ -1,2 +1,0 @@
-# 30th_anniversary
-30th_anniversary_invitation
